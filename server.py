@@ -14,6 +14,6 @@ while not done:
         done = True
     else:
         print("Client: " + msg)
-    server.send(input('Server msg: ').encode('utf-8'))
+    client.send(input('Server msg: ').encode('utf-8'))
 
 client.close()
